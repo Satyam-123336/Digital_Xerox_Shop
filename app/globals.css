@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap');
+@import 'leaflet/dist/leaflet.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F7F8FC;
+  color: #0C1340;
+}
+
+.leaflet-container {
+  border-radius: 12px;
+  z-index: 0;
+}
+
+.status-pending  { background: #FEF3C7; color: #92400E; }
+.status-ready    { background: #D1FAE5; color: #065F46; }
+.status-completed { background: #E5E7EB; color: #374151; }
